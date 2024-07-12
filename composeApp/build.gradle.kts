@@ -34,6 +34,8 @@ kotlin {
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
             implementation(libs.jSerialComm)
+            implementation("cafe.adriel.voyager:voyager-tab-navigator:1.1.0-beta02")
+            implementation(libs.multiplatform.settings)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
